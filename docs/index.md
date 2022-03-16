@@ -34,8 +34,9 @@ Murid dan Mahasiswa
 ### c. Use Case Diagram
 ```markdown
 Berikut use case diagram yang digunakan pada website kami
-![UseCase](https://github.com/SeniorProject-Rabu7/klausa.id/issues/5#issue-1170990630)
 ```
+![UseCase](https://github.com/SeniorProject-Rabu7/klausa.id/issues/5#issue-1170990630)
+
 ```markdown
 Syntax highlighted code block
 
