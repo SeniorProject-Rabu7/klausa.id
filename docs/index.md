@@ -39,7 +39,6 @@ Berikut use case diagram yang digunakan pada website kami
 ### d. Functional requirements untuk use case yang telah dirancang
 |FR|Deskripsi|
 |----|----|
-
 |Cek Struktur Kalimat|Fungsi cek Struktur Kalimat merupakan fitur utama dari website yang ingin kami kembangkan. Fungsi ini akan meminta user untuk memasukan sebuah kalimat atau lebih yang nantinya akan diidentifikasi struktur kalimatnya.|
 |Arti Per-Kata|Menunjukkan arti setiap kata yang terdapat pada kalimat yang dimasukkan oleh pengguna.|
 |Pengejaan Kata|Menunjukkan cara membaca atau mengeja setiap kata yang terdapat pada kalimat yang dimasukkan oleh pengguna.|
