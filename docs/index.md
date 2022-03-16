@@ -31,7 +31,6 @@ Pengguna umum
 Guru Sekolah
 Murid dan Mahasiswa
 ```
-
 ### c. Use Case Diagram
 ```markdown
 Berikut use case diagram yang digunakan pada website kami
