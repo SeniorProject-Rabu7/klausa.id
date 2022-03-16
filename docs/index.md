@@ -55,7 +55,7 @@ Berikut use case diagram yang digunakan pada website kami
 
 ![Low Fidelity Wireframe](https://user-images.githubusercontent.com/65409867/158606993-853eca07-64e1-4127-8ef7-78e881711c24.png)
 
-### e. Low-Fedelity Wireframe
+### g. Gantt Chart
 
 ![Gantt Chart](https://raw.githubusercontent.com/SeniorProject-Rabu7/klausa.id/main/docs/Gantt_Chart.jpg)
 
