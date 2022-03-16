@@ -46,7 +46,18 @@ Berikut use case diagram yang digunakan pada website kami
 |Cek kesalahan penulisan|Memperlihatkan kata kata yang salah dalam penulisannya (typo)  berupa garis merah di bawah kata tersebut.|
 
 ```markdown
-Syntax highlighted code block
+
+### e. Entity Relationship Diagram
+```markdown
+Pengguna umum
+Guru Sekolah
+Murid dan Mahasiswa
+```
+### f. Low-Fedelity Wireframe
+```markdown
+![Low Fidelity Wireframe](https://user-images.githubusercontent.com/65409867/158606993-853eca07-64e1-4127-8ef7-78e881711c24.png)
+```
+
 
 # Header 1
 ## Header 2
