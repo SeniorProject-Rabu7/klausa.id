@@ -32,9 +32,10 @@ Guru Sekolah
 Murid dan Mahasiswa
 ```
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### c. Use Case Diagram
+```markdown
+Berikut use case diagram yang digunakan pada website kami
+![UseCase](UseCase.png)
 
 ```markdown
 Syntax highlighted code block
