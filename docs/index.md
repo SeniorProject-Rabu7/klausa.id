@@ -54,9 +54,8 @@ Guru Sekolah
 Murid dan Mahasiswa
 ```
 ### f. Low-Fedelity Wireframe
-```markdown
+
 ![Low Fidelity Wireframe](https://user-images.githubusercontent.com/65409867/158606993-853eca07-64e1-4127-8ef7-78e881711c24.png)
-```
 
 
 # Header 1
