@@ -6,7 +6,7 @@ You can use the [editor on GitHub](https://github.com/SeniorProject-Rabu7/klausa
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 -->
 ____
-16 Maret 2022
+>Update : 16 Maret 2022
 ## Metodologi SDLC
 Metodologi yang digunakan:
 ```markdown
@@ -14,7 +14,10 @@ Waterfall
 ```
 Alasan pemilihan metodologi
 ```markdown
-Metode Waterfall merupakan metode yang sangat familiar bagi kami. Metode ini merupakan metode yang sangat basic karena kami akan mengembangkan softwarenya secara berurutan, dengan demikian waktu pengerjaan dapat terjadwal dengan baik. Selain itu, metode ini cocok untuk project project sederhana(predictable) yang sudah ada tengar waktunya.
+Metode Waterfall merupakan metode yang sangat familiar bagi kami. Metode ini merupakan metode 
+yang sangat basic karena kami akan mengembangkan softwarenya secara berurutan, dengan demikian 
+waktu pengerjaan dapat terjadwal dengan baik. Selain itu, metode ini cocok untuk project 
+project sederhana (predictable) yang sudah ada tengar waktunya.
 ```
 ## Perancangan Tahap 1-3 SDLC
 ### a. Tujuan dari produk
@@ -50,7 +53,8 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
+____
+<!--
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
@@ -60,3 +64,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+-->
