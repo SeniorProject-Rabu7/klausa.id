@@ -34,7 +34,7 @@ Murid dan Mahasiswa
 ```
 ### c. Use Case Diagram
 Berikut use case diagram yang digunakan pada website kami
-![UseCase](https://user-images.githubusercontent.com/92254386/158605745-97c570b9-933c-4ed8-a828-e041de5a6e07.png)
+![UseCase](https://raw.githubusercontent.com/SeniorProject-Rabu7/klausa.id/main/docs/UseCase.png)
 
 
 ### d. Functional requirements untuk use case yang telah dirancang
