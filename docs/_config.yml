@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: Klausa.id
 description: Aplikasi berbasis web untuk memudahkan memahami struktur penyusun suatu kalimat dalam bahasa Indonesia
-markdown:kramdown
+markdown: kramdown
