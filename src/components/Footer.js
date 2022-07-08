@@ -1,10 +1,19 @@
-import React from "react";
+import { Box } from '@mui/material';
 
 function Footer() {
   return (
-    <div>
-      <h1>This is footer</h1>
-    </div>
+    <Box component='footer' sx={{
+      bgcolor: 'secondary.main',
+      fontSize: '0.6rem',
+      textAlign: 'center',
+      p: '1rem',
+      '& p': {
+        m: 0
+      },
+      mt: '1rem'
+    }}>
+      <p>&copy; 2022 Klausa.id. All rights reserved.</p>
+    </Box>
   );
 }
 
