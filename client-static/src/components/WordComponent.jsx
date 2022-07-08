@@ -21,7 +21,8 @@ export default function WordComponent({ wordIndex, spelling, type, onClick }) {
           bgcolor: colors.grey[400]
         }
       }}
-      onClick={() => {onClick(wordIndex)}}
+      // onClick={() => {onClick(wordIndex)}}
+      onClick={() => {onClick(spelling)}}
     >
       <Box component='span' display='block'>{spelling}</Box>
       <Box sx={{ height: '0.05em', bgcolor: 'currentcolor' }} role='presentation' />

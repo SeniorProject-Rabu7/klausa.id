@@ -2,30 +2,27 @@ import { useState, useRef } from 'react';
 import { Box, Container } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import WordComponent from './WordComponent';
+import WordDefinitions from './WordDefinitions';
 
 export default function Body({ sx }) {
   const [inputText, setInputText] = useState('');
 
   const [resultData, setResultData] = useState(null);
+  const [currentWordDefinitions, setCurrentWordDefinitions] = useState(null);
 
   async function fetchData(textValue) {
-    setResultData([
-      {
-        wordIndex: 0,
-        wordSpelling: 'Halo',
-        wordTypeRaw: 'notVrervb',
-      },
-      {
-        wordIndex: 1,
-        wordSpelling: 'dunia',
-        wordTypeRaw: 'adjektivpa',
-      },
-      {
-        wordIndex: 2,
-        wordSpelling: 'yeah',
-        wordTypeRaw: 'nounne',
-      },
-    ])
+    const PROCESS_TEXT_URL = 'http://localhost:7071/api/process-text'
+
+    try {
+      const rawResponse = await fetch(`${PROCESS_TEXT_URL}?text=${textValue}`);
+      const jsonResponse = await rawResponse.json();
+      setResultData(jsonResponse);
+      setCurrentWordDefinitions(null);
+    }
+    catch (err) {
+      window.alert('An error occured');
+      throw err;
+    }
   }
 
   const timeoutHandle = useRef(null);
@@ -44,6 +41,11 @@ export default function Body({ sx }) {
     }, 500);
   };
 
+  async function getWordDefinition(word) {
+    const rawResponse = await fetch(`https://kbbi-api-amm.herokuapp.com/search?q=${word}`);
+    const jsonResponse = await rawResponse.json();
+    setCurrentWordDefinitions(jsonResponse.data.resultLists);
+  }
 
   return (
     <Container component='main' sx={{
@@ -91,13 +93,17 @@ export default function Body({ sx }) {
                 wordIndex={wordIndex}
                 spelling={wordSpelling}
                 type={wordTypeRaw}
+                onClick={getWordDefinition}
               />
               {' '}
             </>
           ))}
         </Box>
       </Box>
-
+      {/* {currentWordDefinitions.map((wordDefArray) => (
+        <WordDefini
+      ))} */}
+      {currentWordDefinitions && <WordDefinitions defs={currentWordDefinitions} />}
     </Container>
   );
 }
