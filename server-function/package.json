@@ -1,0 +1,11 @@
+{
+  "name": "server-function",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "func start"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.0.4629"
+  }
+}

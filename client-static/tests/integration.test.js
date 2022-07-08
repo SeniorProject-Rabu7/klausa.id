@@ -1,7 +1,9 @@
-import { test, expect } from '@playwright/test';
+const { test, expect } = require('@playwright/test');
 
 test('overall integration test', async ({ page }) => {
     await page.goto('https://klausa.id');
-    await page.type('Saya sedang makan.');
-    await expect(page.locator('div.text-wrapper')).toHaveText('Saya (PRON)');
+    await page.type('textarea', 'Saya sedang makan.');
+    await expect(page.locator('div.text-wrapper.MuiBox-root')).toHaveText('Saya (PRON)', {
+        timeout: 60000
+    });
 })
