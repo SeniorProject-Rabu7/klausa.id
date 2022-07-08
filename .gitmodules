@@ -1,0 +1,3 @@
+[submodule "server-kbbi-api"]
+	path = server-kbbi-api
+	url = https://github.com/azharimm/kbbi-api
